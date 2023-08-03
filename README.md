@@ -14,22 +14,22 @@ If you haven't installed Git on your system, you'll need to do that first. Visit
 ### 2. Clone the Repository:
 Open a terminal or command prompt on your local machine, navigate to the directory where you want to clone the repository, and run the following command to clone the repository to your local machine:
 ```bash
-git clone https://github.com/listentofaze/mm2k-boarder-replacer.git
+git clone https://github.com/listentofaze/mm2k-border-replacer.git
 ```
 ### 3. Navigate to the Script:
 Change into the cloned repository directory:
 ```bash
-cd mm2k-boarder-replacer
+cd mm2k-border-replacer
 ```
 ### 4. Make the Script Executable:
 Make the script file executable using the chmod command:
 ```bash
-chmod +x change_boarder.sh
+chmod +x change_border.sh
 ```
 ## Usage
 
 ```bash
-./change_boarder.sh -i input_folder_path -o output_folder_path [-c "border_color"] [-x]
+./change_border.sh -i input_folder_path -o output_folder_path [-c "border_color"] [-x]
 ```
 
 ## Options
