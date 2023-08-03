@@ -24,7 +24,7 @@ cd mm2k-boarder-replacer
 ### 4. Make the Script Executable:
 Make the script file executable using the chmod command:
 ```bash
-chmod +x crop_and_add_custom_border.sh
+chmod +x change_boarder.sh
 ```
 ## Usage
 
