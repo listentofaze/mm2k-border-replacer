@@ -6,6 +6,26 @@ This is a Bash script that uses ImageMagick to replace the standard white boarde
 
 - ImageMagick: Make sure you have ImageMagick installed on your system. If not, you can install it using the package manager for your OS.
 
+## Installation
+
+### 1. Install Git:
+If you haven't installed Git on your system, you'll need to do that first. Visit the Git website and follow the instructions for your operating system to download and install Git.
+
+### 2. Clone the Repository:
+Open a terminal or command prompt on your local machine, navigate to the directory where you want to clone the repository, and run the following command to clone the repository to your local machine:
+```bash
+git clone https://github.com/listentofaze/mm2k-boarder-replacer.git
+```
+### 3. Navigate to the Script:
+Change into the cloned repository directory:
+```bash
+cd mm2k-boarder-replacer
+```
+### 4. Make the Script Executable:
+Make the script file executable using the chmod command:
+```bash
+chmod +x crop_and_add_custom_border.sh
+```
 ## Usage
 
 ```bash
