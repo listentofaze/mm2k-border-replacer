@@ -1,4 +1,4 @@
-# MM2K Poster Border Script
+# MM2K Poster Border Colour Replacer
 
 This is a Bash script that uses ImageMagick to replace the standard white boarder on MM2K posters with a boarder colour of your choice. The border color can be customized using a HEX color code. The script allows you to specify an input folder containing images, an output folder to save processed images, and optionally the border color in HEX format. You can also enable the script to overwrite existing files in the output folder using the `-x` flag.
 
