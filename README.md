@@ -1,6 +1,6 @@
 # MM2K Poster Border Colour Replacer
 
-This is a Bash script that uses ImageMagick to replace the standard white border on MM2K posters with a border color of your choice. The border color can be customized using a HEX color code. The script allows you to specify an input folder containing images, an output folder to save processed images, and optionally the border color in HEX format. You can also enable the script to overwrite existing files in the output folder using the `-x` flag.
+This is a Bash script that uses ImageMagick to replace the standard white border on MM2K posters with a border color of your choice. The border color can be customized using a HEX color code. The script allows you to specify an input folder containing images, an output folder to save processed images (Folder structure will be preserved) and optionally the border color in HEX format. You can also enable the script to overwrite existing files in the output folder using the `-x` flag. You can enable verbose mode with the -v flag to show a detailed output.
 
 ## Prerequisites
 
@@ -29,14 +29,15 @@ chmod +x change_border.sh
 ## Usage
 
 ```bash
-./change_border.sh -i input_folder_path -o output_folder_path [-c "border_color"] [-x]
+./change_border.sh -i input_folder_path -o output_folder_path [-c "border_color"] [-x] [-v]
 ```
 
 ## Options
 * -i input_folder_path: Specify the input folder containing images to process.
 * -o output_folder_path: Specify the output folder where processed images will be saved.
-* -c "border_color" (Optional): Specify the border color in HEX format within double quotes. If not provided, the default border color is black (#000000).
-* -x (Optional): Enable overwriting existing files in the output directory. If this flag is not specified, the script will skip processing existing files.
+* -c border_color (Optional): Specify the border color in HEX format within double quotes. If not provided, the default border color is black (#000000).
+* -x overwrite (Optional): Enable overwriting existing files in the output directory. If this flag is not specified, the script will skip processing existing files.
+* -v verbose (Optional): Verbose mode. Show detailed output.
 
 ## Notes
 * The script supports JPEG and PNG images only.
